@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 4430055184326032}
   - component: {fileID: 95876714363253234}
   - component: {fileID: 3891573031411801076}
+  - component: {fileID: 366812260967874869}
   m_Layer: 0
   m_Name: Boximon Horus
   m_TagString: Monster
@@ -260,6 +261,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0.73, z: 0}
+--- !u!114 &366812260967874869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100444510730554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01530dbcdc734cb4eb995ba53ae330a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1125378120478410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1107,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1271,6 +1285,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
